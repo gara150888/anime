@@ -1,0 +1,22 @@
+{
+  "name": "@anime/api",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anime/auth": "workspace:*",
+    "@anime/db": "workspace:*",
+    "@trpc/client": "catalog:",
+    "@trpc/server": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@anime/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "extends": "@anime/config/tsconfig.base.json"
+}
