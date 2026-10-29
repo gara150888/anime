@@ -14,7 +14,7 @@ export default function Providers({ children }: { children: React.ReactNode }) {
   const [trpcClient] = useState(makeTRPCClient);
 
   return (
-    <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+    <ThemeProvider>
       <QueryClientProvider client={queryClient}>
         <TRPCProvider trpcClient={trpcClient} queryClient={queryClient}>
           {children}

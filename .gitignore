@@ -1,4 +1,6 @@
-# Dependencies
+.vscode
+
+# ☻Dependencies
 node_modules
 .pnp
 .pnp.js
