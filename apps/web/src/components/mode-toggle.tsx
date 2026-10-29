@@ -8,7 +8,7 @@ import {
   DropdownMenuTrigger,
 } from "@anime/ui/components/dropdown-menu";
 import { Moon, Sun } from "lucide-react";
-import { useTheme } from "next-themes";
+import { useTheme } from "./theme-provider";
 import * as React from "react";
 
 export function ModeToggle() {
